@@ -13,6 +13,7 @@
 		FA4F41DA1BFD904400A553EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4F41D81BFD904400A553EB /* Main.storyboard */; };
 		FA4F41E51BFD904400A553EB /* WiFi_RSSI_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F41E41BFD904400A553EB /* WiFi_RSSI_RecorderTests.swift */; };
 		FA4F41F01BFD904400A553EB /* WiFi_RSSI_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F41EF1BFD904400A553EB /* WiFi_RSSI_RecorderUITests.swift */; };
+		FA4F41FE1BFD9BCD00A553EB /* WiFiInformationGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F41FD1BFD9BCD00A553EB /* WiFiInformationGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FA4F41EB1BFD904400A553EB /* WiFi RSSI RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WiFi RSSI RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4F41EF1BFD904400A553EB /* WiFi_RSSI_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_RSSI_RecorderUITests.swift; sourceTree = "<group>"; };
 		FA4F41F11BFD904400A553EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4F41FD1BFD9BCD00A553EB /* WiFiInformationGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiInformationGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 			children = (
 				FA4F41D21BFD904400A553EB /* AppDelegate.swift */,
 				FA4F41D41BFD904400A553EB /* ViewController.swift */,
-				FA4F41D61BFD904400A553EB /* Assets.xcassets */,
+				FA4F41FD1BFD9BCD00A553EB /* WiFiInformationGetter.swift */,
 				FA4F41D81BFD904400A553EB /* Main.storyboard */,
+				FA4F41D61BFD904400A553EB /* Assets.xcassets */,
 				FA4F41DB1BFD904400A553EB /* Info.plist */,
 			);
 			path = "WiFi RSSI Recorder";
@@ -190,6 +193,7 @@
 				TargetAttributes = {
 					FA4F41CE1BFD904400A553EB = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ND783KL2EV;
 					};
 					FA4F41DF1BFD904400A553EB = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -254,6 +258,7 @@
 			files = (
 				FA4F41D51BFD904400A553EB /* ViewController.swift in Sources */,
 				FA4F41D31BFD904400A553EB /* AppDelegate.swift in Sources */,
+				FA4F41FE1BFD9BCD00A553EB /* WiFiInformationGetter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +389,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "WiFi RSSI Recorder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.genii.WiFi-RSSI-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -396,9 +403,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "WiFi RSSI Recorder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.genii.WiFi-RSSI-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -475,6 +484,7 @@
 				FA4F41F61BFD904400A553EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA4F41F71BFD904400A553EB /* Build configuration list for PBXNativeTarget "WiFi RSSI RecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +493,7 @@
 				FA4F41F91BFD904400A553EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA4F41FA1BFD904400A553EB /* Build configuration list for PBXNativeTarget "WiFi RSSI RecorderUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +502,7 @@
 				FA4F41FC1BFD904400A553EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
