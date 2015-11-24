@@ -13,3 +13,6 @@ so the export file name will be "2.4m_14.37.txt". And the program will export an
 which contains only this WiFi AP's RSSIs info IN ONE LINE(separated by ',').
 
 So you will know which format of txt file is better for you to use in your project.
+
+IMPORTANT
+Make sure you have connected to an AP BEFORE running the program
