@@ -14,5 +14,9 @@ which contains only this WiFi AP's RSSIs info IN ONE LINE(separated by ',').
 
 So you will know which format of txt file is better for you to use in your project.
 
-IMPORTANT
-Make sure you have connected to an AP BEFORE running the program
+**UPDATE AUG 14, 2018:**  
+Update the code to Swift 4.1 compatible.
+Executable file is under Build/Products/Debug/, double click to run. Tested under macOS 10.13.6, Xcode 9.4.1.
+
+**IMPORTANT:**  
+Make sure you have connected to an AP **BEFORE** running the program
