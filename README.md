@@ -18,5 +18,9 @@ So you will know which format of txt file is better for you to use in your proje
 Update the code to Swift 4.1 compatible.
 Executable file is under Build/Products/Debug/WiFi-Info-Recorder.app, double click to run. Tested under macOS 10.13.6, Xcode 9.4.1.
 
-##IMPORTANT
+## Preview
+
+<img src="https://raw.githubusercontent.com/AXU9513/Cloud/master/Screen%20Shot%202018-08-14%20at%2022.51.38.png?token=AHyTe-cvset7lrpDzilt3b965oloeS5fks5bfNKxwA%3D%3D" width="50%" height="50%">
+
+## IMPORTANT
 Make sure you have connected to an AP **BEFORE** running the program
