@@ -20,7 +20,7 @@ Executable file is under Build/Products/Debug/WiFi-Info-Recorder.app, double cli
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/AXU9513/Cloud/master/Screen%20Shot%202018-08-14%20at%2022.51.38.png?token=AHyTe-cvset7lrpDzilt3b965oloeS5fks5bfNKxwA%3D%3D" width="50%" height="50%">
+<img src="./preview.png" width="50%" height="50%">
 
 ## IMPORTANT
 Make sure you have connected to an AP **BEFORE** running the program
